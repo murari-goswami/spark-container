@@ -14,7 +14,9 @@ RUN apk --update \
     add tar \
         bash \
         wget \
-        ca-certificates
+        ca-certificates \
+        bash
+
 
 
 # download and install scala
