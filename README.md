@@ -6,6 +6,11 @@ spark algorithms/ ML models and execute different tests. The default is a single
 However, in order to fully utilize the power of multiple worker nodes, scale feature of docker-compose can be 
 utilized to ramp up cluster with multiple nodes.
 
+## Container components
+source from alpine openjdk image
+dependencies - tar, bash, wget, ca-certificates, bash, scala, sbt, spark   
+     
+## Container Orchestration
 Use following commands to ramp up the cluster with dynamic number of worker nodes.
 
 `docker-compose up --scale spark-worker=3`
